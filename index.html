@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 
+		
+                                    Yo, Bretheren. 
+
+                                    This template is made by me, with the intention of providing people who are starting out in web development
+                                    with a simplistic, minimal website to get themselves up online and displaying their projects.
+
+                                    You will find that every section is commented and explains in brief what it does.
+
+                                    It was created out of the goodness of my heart. <3
+
+                                    By all means use this for your own projects, pull it apart, edit it.. claim it as your own work if you want to. However
+                                    I please ask you don't resell it.
+
+                                    If you do, I will find you.. and I will kill you.
+
+                                    Slowly.
+
+									                  Have a splendid day.
+                                    James x
+                                    
+                                    AKA The Countryside Coder
+
+                                          .--..--..--..--..--..--.
+                                        .' \  (`._   (_)     _   \
+                                      .'    |  '._)         (_)  |
+                                      \ _.')\      .----..---.   /
+                                      |(_.'  |    /    .-\-.  \  |
+                                      \     0|    |   ( O| O) | o|
+                                       |  _  |  .--.____.'._.-.  |
+                                       \ (_) | o         -` .-`  |
+                                        |    \   |`-._ _ _ _ _\ /
+                                        \    |   |  `. |_||_|   |
+                                        | o  |    \_      \     |     -.   .-.
+                                        |.-.  \     `--..-'   O |     `.`-' .'
+                                      _.'  .' |     `-.-'      /-.__   ' .-'
+                                    .' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+                                    `-._  `.  |________/\_____|    `-.'
+                                       .'   ).| '=' '='\/ '=' |
+                                       `._.`  '---------------'
+                                               //___\   //___\
+                                                 ||       ||
+                                                 ||_.-.   ||_.-.
+                                                (_.--__) (_.--__)                               
+        -->
+
+    <!-- The boring part! -->
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Samman's Portfolio</title>
+    <meta
+      content="Development portfolio of .... "
+      name="description"
+      property="og:description"
+    />
+
+    <!-- Link to the relevant stylesheet -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!--[if lte IE 8]>
+      <link href="dist/css/blockIE.css" rel="stylesheet" />
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Load JQuery, as our little script depends on it -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Load our font from Google -->
+    <!-- The JS code block has been moved into the index.js file.  -->
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <!-- This calls the little script written above. -->
+    <div class="preloader"></div>
+    <main>
+      <!-- The Intro section begins -->
+      <section class="intro">
+        <div class="intro-text">
+          <!-- Seperates the text section from the arrow. -->
+          <div class="Hi">
+            <h1>
+              Hi! 👋 &mdash; My name is <span>Samman</span>, I'm a
+              <span>fullstack developer</span> 👨🏻‍💻 located in Kathmandy, Nepal.
+            </h1>
+            <!-- Insert your text here! -->
+          </div>
+        </div>
+      </section>
+      <!-- Intro section ends -->
+
+      <!-- The portfolio section begins -->
+      <!-- Please note: all of the following images are from Unsplash. I do not own the rights to them, and I have used them according to Unsplash's
+    href="https://www.github.com/jabedford"
+				rules and regulations. All credits go to original owners/photographers.-->
+
+      <section class="projects">
+        <div class="projects-collage">
+          <!-- Project One -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="./Assets/GlobalChatRoomHome.png" />
+              <figcaption class="project-text">
+                <h2>Global Chat Room</h2>
+                <p>A Chat Application</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+            HINTS: The P tag next
+            First Anchor tag is for the project's github REPO
+            Second Anchor is for the project's live preview  -->
+
+                <p class="hidden popUpdesc">
+                  Global Chat Room is a simple real time chat application.
+                  People form anywhere can join the applicaion and start sending
+                  messages. The messages you send will be public and visible to
+                  all others users.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span
+                  id="githubRepo"
+                  href="https://gitlab.com/samman/globalchatroom"
+                ></span>
+                <span
+                  id="livePreview"
+                  href="https://globalchatroom.herokuapp.com/"
+                ></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project One Ends -->
+
+          <!-- Project Two -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="./Assets/EcommerceAppHomepage.png" />
+              <figcaption class="project-text">
+                <h2>Ecommerce Application</h2>
+                <p>An Ecommerse Applicaiton For S.S Liqours Store</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+            HINTS: The P tag next
+            First Anchor tag is for the project's github REPO
+            Second Anchor is for the project's live preview  -->
+
+                <p class="hidden popUpdesc">
+                  A simple ecommerce application built for a liquors store that
+                  my family operates. It has all the basic functionality that
+                  you might expect form a ecommerce site.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span
+                  id="githubRepo"
+                  href="https://gitlab.com/samman/s.s_liquors"
+                ></span>
+                <span
+                  id="livePreview"
+                  href="https://ss-liquors.herokuapp.com/"
+                ></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project Two Ends -->
+
+          <!-- Project Three -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="./Assets/communities.png" />
+              <figcaption class="project-text">
+                <h2>Not Alone</h2>
+                <p>A social media application</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+            HINTS: The P tag next
+            First Anchor tag is for the project's github REPO
+            Second Anchor is for the project's live preview  -->
+
+                <p class="hidden popUpdesc">
+                  A social media applicaition where people can create groups
+                  based on their interests. Users can share posts, organize
+                  virtual meetups and communicate with each other. It's major
+                  focus is on providing a low consorship alternative to other
+                  social media applications.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span
+                  id="githubRepo"
+                  href="https://gitlab.com/samman/notalone"
+                ></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project Three Ends -->
+
+          <!-- Project Four -->
+          <a class="project-item" target="_blank">
+            <figure class="project-figure">
+              <div class="project-overlay"></div>
+              <img src="./Assets/phpcore.png" />
+              <figcaption class="project-text">
+                <h2>Samman MVC</h2>
+                <p>A custom php mvc framework</p>
+                <!-- *********************** -->
+                <!-- START OF HIDDEN ELEMENTS -->
+
+                <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+            HINTS: The P tag next
+            First Anchor tag is for the project's github REPO
+            Second Anchor is for the project's live preview  -->
+
+                <p class="hidden popUpdesc">
+                  A custom php mvc framework built for personal use. After
+                  writing core php for a while, I felt it would boost up my
+                  productivity if I could create a reusable base that I can use
+                  in all my php projects. So I created this custom framework.
+                </p>
+                <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+                <span
+                  id="githubRepo"
+                  href="https://gitlab.com/samman/sammanmvc_framework"
+                ></span>
+
+                <!-- *********************** -->
+                <!-- END OF HIDDEN ELEMENTS -->
+              </figcaption>
+            </figure>
+          </a>
+          <!-- Project Four Ends -->
+        </div>
+      </section>
+      <!-- Portfolio section ends -->
+
+      <!-- Contact button section begins -->
+      <section class="content contact">
+        <a
+          class="button-slide"
+          data-hover="thisissamman@email.com"
+          href="mailto:thisissamman@email.com"
+        >
+          <span>Talk To Me 👌</span>
+        </a>
+        <!-- 
+        <div id="form">
+          <h1>Drop a message below.</h1>
+          <p>And I'll get to you ASAP</p>
+          <form>
+            <input type="text" placeholder="Your Awesome Name" />
+            <input type="email" placeholder="Your cool email address" />
+            <textarea placeholder="Message here please"> </textarea>
+            <div id="buttonDiv">
+              <button>Send</button>
+            </div>
+          </form>
+        </div>
+      --></section>
+      <!-- Contact button section ends-->
+
+      <!-- Footer section begins - If you do not want links here, you can change the <li> items to just be <p> tags or whatever you require -->
+      <footer>
+        <div class="wrapper">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/sammanadh/" target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/samman-adhikari-6116b61b3/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/sammanadh" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/samman" target="_blank">GitLab</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <!-- Footer section ends -->
+    </main>
+    <!--This section would ONLY appear when an individual project 'box' is clicked, It gives more detail about the project. it contains-- IMAGE OF THE PROJECT, THE PROJECT'S NAME, THE PROJECT FULL DESCRIPTION, GITHUB LINK && PREVIEW LINK -->
+    <div class="popUp">
+      <div class="popUpImg"></div>
+      <div id="popUpText">
+        <h1>Project's Name</h1>
+        <p class="projectDesc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non
+          ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit
+          amet consectetur adipisicing elit.
+        </p>
+        <div>
+          <a href="" id="githubLink"></a>
+          <a href="" id="previewLink"></a>
+        </div>
+      </div>
+      <span id="cancelBtn">X</span>
+    </div>
+  </body>
+</html>
